@@ -1,0 +1,22 @@
+<idea-plugin version="2">
+    <id>com.haulmont.cuba.talk-samples</id>
+    <name>IntelliJ Plugin Samples</name>
+    <version>1.0</version>
+    <vendor email="info@cuba-platform.com" url="http://www.haulmont.com">Haulmont</vendor>
+
+    <description><![CDATA[
+    A couple of plugin samples.
+]]></description>
+
+    <idea-version since-build="145" until-build="162.*"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.haulmont.cuba.samples.CheckMemoryOptionsStartupActivity"/>
+    </extensions>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
