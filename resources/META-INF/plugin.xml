@@ -3,6 +3,7 @@
     <name>IntelliJ Plugin Samples</name>
     <version>1.0</version>
     <vendor email="info@cuba-platform.com" url="http://www.haulmont.com">Haulmont</vendor>
+    <resource-bundle>messages.SampleBundle</resource-bundle>
 
     <description><![CDATA[
     A couple of plugin samples.
@@ -14,6 +15,11 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <postStartupActivity implementation="com.haulmont.cuba.samples.CheckMemoryOptionsStartupActivity"/>
+
+        <localInspection language="JAVA" shortName="JUnitAssertParametersWrongOrder" enabledByDefault="true"
+                         key="samples.inspection.assertParams" groupKey="samples.inspections.group"
+                         implementationClass="com.haulmont.cuba.samples.AssertParametersOrderInspection"/>
+
     </extensions>
 
     <actions>

@@ -14,7 +14,6 @@ import org.jetbrains.annotations.NotNull;
 
 /**
  * @author Alexander Budarov
- * @version $Id$
  */
 public class CheckMemoryOptionsStartupActivity implements StartupActivity, DumbAware {
 
