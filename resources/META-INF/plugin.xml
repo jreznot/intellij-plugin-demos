@@ -20,6 +20,8 @@
                          key="samples.inspection.assertParams" groupKey="samples.inspections.group"
                          implementationClass="com.haulmont.cuba.samples.AssertParametersOrderInspection"/>
 
+        <psi.referenceContributor
+                implementation="com.haulmont.cuba.samples.reference.SamplesReferenceContributor"/>
     </extensions>
 
     <actions>
