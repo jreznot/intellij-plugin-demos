@@ -9,3 +9,5 @@ Plugin Development Documentation: http://www.jetbrains.org/intellij/sdk/docs/ind
 Plugin Development Forum: https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development
 
 Customized IDEA Settings: http://tomaszdziurko.pl/2015/11/1-and-the-only-one-to-customize-intellij-idea-memory-settings/
+
+Более подробно о внутренностях IDEA. Николай Чашников — "IntelliJ IDEA изнутри": https://www.youtube.com/watch?v=NU3DDcsU_Co
