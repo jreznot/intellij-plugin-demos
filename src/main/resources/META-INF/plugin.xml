@@ -1,12 +1,12 @@
-<idea-plugin version="2">
+<idea-plugin>
     <id>com.haulmont.cuba.talk-samples</id>
-    <name>IntelliJ Plugin Samples</name>
+    <name>Technical Talks IntelliJ Examples</name>
     <version>1.0</version>
     <vendor email="info@cuba-platform.com" url="http://www.haulmont.com">Haulmont</vendor>
     <resource-bundle>messages.SampleBundle</resource-bundle>
 
     <description><![CDATA[
-    A couple of plugin samples.
+    A couple of plugin samples for technical talks.
 ]]></description>
 
     <idea-version since-build="145" until-build="162.*"/>

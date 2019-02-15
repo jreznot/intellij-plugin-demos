@@ -31,7 +31,7 @@ public class AssertParametersOrderInspection extends LocalInspectionTool {
         List<ProblemDescriptor> problems = visitor.getProblems();
 
         if (problems != null) {
-            return problems.toArray(new ProblemDescriptor[problems.size()]);
+            return problems.toArray(new ProblemDescriptor[0]);
         } else {
             return null;
         }
