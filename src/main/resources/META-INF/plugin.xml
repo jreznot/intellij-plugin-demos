@@ -9,7 +9,7 @@
     A couple of plugin samples for technical talks.
 ]]></description>
 
-    <idea-version since-build="145" until-build="162.*"/>
+    <idea-version since-build="183.0" until-build="190.*"/>
 
     <depends>com.intellij.modules.lang</depends>
 
